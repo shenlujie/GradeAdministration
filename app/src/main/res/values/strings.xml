@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GradeAdministration</string>
+    <string name="title_activity_grade">GradeActivity</string>
+    <string name="title_grade">成绩</string>
+    <string name="title_mime">我的</string>
+    <string name="title_setting">设置</string>
+    <string name="title_grade_details">成绩详情</string>
+    <string name="title_update">修改信息</string>
+    <string name="title_security">账户安全</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

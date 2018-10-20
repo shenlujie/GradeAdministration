@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/update_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?actionBarSize"
+            android:background="#009ACD"
+            app:navigationIcon="@mipmap/back">
+        <TextView
+                android:id="@+id/toolbar_title"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/title_update"
+                android:textColor="@color/white"/>
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="56dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp">
+
+
+            <!-- Sno Label -->
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/input_sno_u"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:inputType="textPersonName"
+                          android:hint="学号" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- Name Label -->
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/input_name_u"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:inputType="textPostalAddress"
+                          android:hint="姓名" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <!--  Sex Label -->
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/input_sex_u"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:inputType="textEmailAddress"
+                          android:hint="性别" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!-- age number -->
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/input_age_u"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:inputType="number"
+                          android:hint="年龄" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- class number -->
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/input_class_u"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:inputType="number"
+                          android:hint="班级" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- dept number -->
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/input_dept_u"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:hint="学院" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!-- mobile number -->
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/input_mobile_u"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:inputType="number"
+                          android:hint="电话号码" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!-- Signup Button -->
+            <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_signup_u"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:padding="12dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/white"
+                    android:text="确 认 修 改"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
